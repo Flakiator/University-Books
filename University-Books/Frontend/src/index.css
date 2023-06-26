@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.active {
+  background-color: #83c9f4 !important;
+  color: #b1e3eb !important;
+}
+
+.custom-toggle-button.primary.active {
+  background-color: #83c9f4; /* Set the desired active background color */
+  border-color: #83c9f4; /* Set the desired active border color */
+  color: #FFFFFF; /* Set the desired active text color */
+}
+
+.custom-toggle-button.primary.active {
+  background-color: #83c9f4; /* Set the desired active background color */
+  border-color: #83c9f4; /* Set the desired active border color */
+  color: #FFFFFF; /* Set the desired active text color */
+}

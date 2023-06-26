@@ -1,0 +1,33 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: bottom;
+    bottom: 0;
+    margin-top: 300px;
+  }
+  
+  
+  .footer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Optional: Adjust styles for the footer elements */
+  .footer h4 {
+    margin-right: 50px;
+  }
+  
+  .footer ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  

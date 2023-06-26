@@ -1,0 +1,71 @@
+.box {
+    border: 1px solid #000000;
+    padding-top: 10px;
+    background-color: #D9F0FF;
+  }
+  
+  .box-content {
+    display: flex;
+    justify-content: space-between; /* This is what puts the headings to the left, and the text for the headings to the right.*/
+    align-items: center;
+    margin-bottom: 1px;
+  }
+  
+  .dotted-line {
+    border-top: 3px dotted #261616;
+    margin-bottom: 10px;
+  }
+  
+  .LeftRight {
+    display: flex;
+    justify-content: space-between; /* This is what puts the headings to the left, and the text for the headings to the right.*/
+    align-items: top;
+  }
+
+  .title-container {
+    max-width: 50px; /* Adjust the value as per your needs */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .price-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .price-container .book-price {
+    margin-right: 5px; /*Distance to kr.*/
+  }
+  
+  .info-card {
+    background-color: #A3D5FF;
+  }
+
+  .info-text {
+
+    margin-left: 2px;
+    margin-right: 2px;
+    
+  }
+
+  .text-bg-info {
+    background-color: #00d5ff; /* VIRKER IKKE! */
+  }
+
+/*
+  .status-box {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 100px;
+    height: 50px;
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+  }
+  
+  .status-text {
+    margin: 0;
+  }
+  */
